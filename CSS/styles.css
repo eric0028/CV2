@@ -12,6 +12,7 @@ h1 {
 
 h2 {
   color: #66BFBF;
+  padding: 20px 0 10px;
   font-size: 1.7rem;
   font-family: 'Source Serif Pro', serif;
 }
@@ -25,33 +26,36 @@ h3 {
 a {
   color: #11999E;
   font-family: 'Ubuntu', sans-serif;
-  text-decoration: none;
   font-weight: bold;
+  text-decoration: none;
+  margin: 0;
+  padding: 5px 0 5px;
 }
 
 p {
   font-family: 'Ubuntu', sans-serif;
+  line-height: 2;
 }
 
-hr{
-  width: 10%;
+hr {
+  width: 5%;
   border-style: dotted none none none;
   height: 5px;
   color: #dfdfdf;
   border-width: thick;
+  margin: 30px auto;
 }
 
 /******************************************* CLASS ********************************************/
-
-      /*IMAGES*/
-
-.bot-cloud {
-  position: absolute;
-}
+/*IMAGES*/
 
 .top-cloud {
-  position: relative;
-  left: 180px;
+  position: absolute;
+  right: 25%;
+}
+.bot-cloud {
+  position: absolute;
+  left: 25%;
 }
 
 .profile-pic {
@@ -61,56 +65,63 @@ hr{
 }
 
 .skill-1 {
-  margin: auto;
-  width: 25%;
+
+  width: 120px;
   float: left;
   margin-right: 30px;
 }
 
-.skill-2 {
-  margin: auto;
-  width: 22%;
-  float: left;
-  margin-right: 30px;
-}
-
-
+/********************CONTAINERS*************************/
 .top-container {
   margin: 0;
-  padding-top: 60px;
+  padding: 60px 0 0;
   background-color: #f3f9fb;
 }
 
+.middle-container{
+  padding-bottom: 30px;
+}
+.bottom-container {
+  background-color: #f3f9fb;
+  padding: 50px 0 10px;
+}
+
 .skill-row {
-  margin: 100px auto;
-  width: 50%;
+  margin: 50px auto;
+  width: 45%;
   text-align: left;
-  line-height: 2;
 }
 
 .subtitle {
   font-weight: normal;
 }
 
-.bottom-container{
-  margin-top: 60px;
-  background-color: #f3f9fb;
-  padding: 50px;
-}
-
-.bot-margin{
+.bot-margin {
   margin-bottom: 40px;
 }
 
-.author{
+.author {
   color: #11999E;
+  margin-top: 30px;
 }
 
-.footer-link{
+.footer-link {
   padding: 20px;
 }
-/****************************** button ********************************/
 
+.center-align {
+  text-align: center;
+}
+
+.profile {
+  width: 50%;
+  margin: auto;
+}
+
+.contact-me{
+  padding-bottom: 10px;
+}
+/****************************** button ********************************/
 .butn {
   background: #66BFBF;
   background-image: -webkit-linear-gradient(top, #66BFBF, #11999E);
@@ -118,7 +129,7 @@ hr{
   background-image: -ms-linear-gradient(top, #66BFBF, #11999E);
   background-image: -o-linear-gradient(top, #66BFBF, #11999E);
   background-image: linear-gradient(to bottom, #66BFBF, #11999E);
-  background-image: -webkit-gradient(linear, left top, left bottom,  #66BFBF, #11999E);
+  background-image: -webkit-gradient(linear, left top, left bottom, #66BFBF, #11999E);
   -webkit-border-radius: 11;
   -moz-border-radius: 11;
   border-radius: 11px;
@@ -137,6 +148,6 @@ hr{
   background-image: -ms-linear-gradient(top, #11999E, #66BFBF);
   background-image: -o-linear-gradient(top, #11999E, #66BFBF);
   background-image: linear-gradient(to bottom, #11999E, #66BFBF);
-  background-image: -webkit-gradient(linear, left top, left bottom,  #66BFBF, #11999E);
+  background-image: -webkit-gradient(linear, left top, left bottom, #66BFBF, #11999E);
   text-decoration: none;
 }
